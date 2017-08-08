@@ -1,0 +1,26 @@
+
+import java.io.IOException;
+import java.text.DecimalFormat;
+import java.util.Scanner;
+
+public class Dase {
+	private static Scanner input;
+    public static void main(String[] args) throws IOException {
+
+		int A, B, C, D, DIFERENCA;
+    	
+    	DecimalFormat df = new DecimalFormat();
+    	df.setMaximumFractionDigits(1);
+    	
+		input = new Scanner(System.in);
+		A = input.nextInt();
+		B = input.nextInt();
+		C = input.nextInt();
+		D = input.nextInt();
+
+		DIFERENCA = (A * B - C * D);
+		
+	    System.out.println("DIFERENCA = " + DIFERENCA);
+    
+    }
+}

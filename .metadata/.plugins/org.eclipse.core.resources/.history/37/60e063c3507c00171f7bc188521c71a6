@@ -1,0 +1,21 @@
+
+import java.io.IOException;
+import java.util.Scanner;
+
+public class Dase {
+	private static Scanner input;
+    public static void main(String[] args) throws IOException {
+
+		input = new Scanner(System.in);
+		double A, B, MEDIA;
+		A = input.nextDouble();
+		B = input.nextDouble();
+	     
+		MEDIA = A*0.35 + B*0.75;
+		if (MEDIAI > 10)
+			MEDIA = 10;
+				
+	    System.out.println("MEDIA = " + MEDIA);
+    
+    }
+}

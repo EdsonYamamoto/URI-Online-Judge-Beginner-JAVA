@@ -1,0 +1,24 @@
+
+import java.io.IOException;
+import java.text.DecimalFormat;
+import java.util.Scanner;
+
+public class Dase {
+	private static Scanner input;
+    public static void main(String[] args) throws IOException {
+
+		double A, B, MEDIA;
+		
+    	DecimalFormat df = new DecimalFormat();
+    	df.setMaximumFractionDigits(5);
+    	
+		input = new Scanner(System.in);
+		A = input.nextDouble();
+		B = input.nextDouble();
+
+		MEDIA = (A*3.5 + B*7.5)/11;
+				
+	    System.out.println("MEDIA = " + df.format(MEDIA));
+    
+    }
+}

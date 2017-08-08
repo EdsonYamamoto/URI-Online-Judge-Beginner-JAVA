@@ -1,0 +1,2 @@
+INDEX VERSION 1.129+C:\Users\Edson\Documents\GitHub\URI-Online-Judge-Beginner-JAVA\.metadata\.plugins\org.eclipse.jdt.core
+2941462321.index

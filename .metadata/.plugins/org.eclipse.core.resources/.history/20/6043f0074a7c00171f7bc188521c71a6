@@ -1,0 +1,19 @@
+
+import java.io.IOException;
+import java.util.Scanner;
+
+public class Dase {
+	private static Scanner input;
+    public static void main(String[] args) throws IOException {
+ 
+		input = new Scanner(System.in);
+		int A, B, SOMA;
+		A = input.nextInt();
+		B = input.nextInt();
+	     
+		SOMA = A + B;
+				
+	    System.out.println("SOMA = " + A);
+ 
+    }
+}

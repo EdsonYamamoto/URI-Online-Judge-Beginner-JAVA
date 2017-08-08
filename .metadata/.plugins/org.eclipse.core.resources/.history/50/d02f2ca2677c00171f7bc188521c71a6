@@ -1,0 +1,25 @@
+
+import java.io.IOException;
+import java.text.DecimalFormat;
+import java.util.Scanner;
+
+public class Dase {
+	private static Scanner input;
+    public static void main(String[] args) throws IOException {
+		
+    	double A, B, SALARIO;
+    	
+    	DecimalFormat df = new DecimalFormat();
+    	df.setMaximumFractionDigits(2);
+    	
+		input = new Scanner(System.in);
+		A = input.nextDouble();
+		B = input.nextDouble();
+
+		SALARIO *= B;
+
+	    System.out.println("NUMBER = " + A);
+	    System.out.println("SALARY = U$ " + df.format(SALARIO));
+    
+    }
+}
